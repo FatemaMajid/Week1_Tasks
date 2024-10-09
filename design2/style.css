@@ -1,0 +1,11 @@
+.box{
+    background-color: dimgrey;
+}
+.container{
+    margin: 50px 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,300px);
+    grid-gap: 10px;
+}
+
